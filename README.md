@@ -3,7 +3,7 @@
 This spider parse two sites in a row:
 * The first spider takes data of the companies earnings and guidance for the current week
 * The second spider filters on another site parsed tickers of the previous step 
-* At the end, we get a "stocks in play" workbook for week
+* At the end, we get a "stocks in play" workbook for a week
 * The final data writes to the Google Sheet via API
 
 ![alt text](https://github.com/kompotkot/WebScraper-Stocksinplay/blob/master/demo.gif?raw=true)
