@@ -8,6 +8,8 @@ This spider parse two sites in a row:
 
 ![alt text](https://github.com/kompotkot/WebScraper-Stocksinplay/blob/master/demo.gif?raw=true)
 
+
+## Structure
 app.py - The main file for working with spiders
 stocksinplay - Directory with spiders
 creds.json - Google Drive API credentials
@@ -15,19 +17,19 @@ output - Temporary data in json format
 
 
 ## Build
-'''
+```
 docker build -t stocksinplay:latest .
-'''
+```
 
 ## Launch
-'''
+```
 docker run stocksinplay app.py -s -g
-'''
+```
 
 Or run from the environment
-'''
+```
 python3 app.py -h
-'''
+```
 
 ## Developed
 2019
