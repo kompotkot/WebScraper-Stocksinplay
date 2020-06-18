@@ -11,9 +11,9 @@ This spider parse two sites in a row:
 
 ## Structure
 app.py - The main file for working with spiders
+output - Temporary data in json format
 stocksinplay - Directory with spiders
 creds.json - Google Drive API credentials
-output - Temporary data in json format
 
 
 ## Build
