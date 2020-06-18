@@ -9,7 +9,7 @@ This spider parse two sites in a row:
 ![alt text](https://github.com/kompotkot/WebScraper-Stocksinplay/blob/master/demo.gif?raw=true)
 
 
-## Structure
+Structure:
 * app.py - The main file for working with spiders
 * output - Temporary data in json format
 * stocksinplay - Directory with spiders
